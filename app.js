@@ -59,7 +59,7 @@ function checkRes() {
       }, 750);
     }
   } else {
-    h2.innerHTML = `Game over! your score is <b>${level}</b> </br> press any key to start the game.`;
+    h2.innerHTML = `Game over! your score is <b>${level}</b> </br> press any key in your keyboard to start the game.`;
     document.querySelector("body").style.backgroundColor = "red";
     restartGame();
   }
